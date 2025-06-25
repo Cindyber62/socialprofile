@@ -1,0 +1,117 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/inter-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/inter-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/inter-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*{
+    font-family: 'Inter';
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: hsl(0, 0%, 8%);
+}
+ul{
+  list-style-type: none;}
+  
+a{
+ font-weight: 700;
+  background-color: hsl(0, 0%, 20%) ;
+  display: block;
+  border-radius:8px; 
+  text-decoration: none;
+  color: white;
+ margin: 1rem;
+ padding: 12px;
+
+}
+a:hover{
+ 
+  background-color:hsl(75, 94%, 57%) ;
+  color:black;
+  transition: background 0.5s ease;
+}
+
+
+
+
+
+.wrappper{
+    width: 350px;
+    height:575px;
+    background-color:hsl(0, 0%, 12%);
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ 
+}
+.image{
+  margin-top: 2rem;
+  text-align: center;
+  width: 112px;
+  height:auto;
+  border-radius: 50%;
+}
+
+.container{
+  font-size: 14px;
+   color: hsl(0, 0%, 100%) ;
+text-align: center;
+
+/* padding: 20px 115px
+40px; */
+
+ margin-left: auto;
+  margin-right: auto;
+
+}
+.name{
+  
+ font-weight: 700;
+ line-height: 150%;
+ margin-top: 1rem;
+ margin-bottom:1rem;
+}
+.london{
+  font-style: bold;
+  font-weight: 400;
+  color: hsl(75, 94%, 57%) ;
+  margin-bottom:1.3rem;
+}
+.discription {
+  font-family: "inter";
+  font-weight: 400;
+ margin-bottom: 2rem;
+}
+
+.list-item{
+ color: blue;
+border-radius:5rem;
+ 
+
+  
+}
